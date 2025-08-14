@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aerod</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container" id="Home">
+        <div class="logo">
+            <a href="">
+                <img src="Images/Screenshot_2025-08-08_215654-removebg-preview (1).png">
+            </a>
+            <div class="userID">
+                <img src="Images/defaultuserID.jpg">
+                <small>User 1</small>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aerod-basics">The Basics of Aerodynamics</a></li>
+                <li><a href="#aerod-principles">How Aerodynamics work</a></li>
+                <li><a href="#aerod-math">The Math used in Aerodynamics</a></li>
+                <li><a href="#aerod-forces">The Forces of Aerodynamics</a></li>
+                <li><a href="#hydro">Hydrodynamics</a></li>
+                <li><a href="#aerod-help">Profesional Help</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="slider-holder">
+        <span id="slider-img1"></span>
+        <span id="slider-img2"></span>
+        <span id="slider-img3"></span>
+        <div class="image-holder">
+            <img src="Images/sliderimg1.jpg" class="slider-img">
+            <img src="Images/sliderimg2.webp" class="slider-img">
+            <img src="Images/sliderimg3.webp" class="slider-img">
+        </div>
+        <div class="button-holder">
+            <a href="#slider-img1" class="slider-change"></a>
+            <a href="#slider-img2" class="slider-change"></a>
+            <a href="#slider-img3" class="slider-change"></a>
+        </div>
+    </div>
+    <div class="box" id="aerod-basics">
+        <h2 class="montserrat-title">The Basics of Aerodynamics</h2>
+        <p>
+            The common question that most people ask is "What is the term and law that defines how air makes a object
+            move?". The answer to that question is Aerodynamics. Aerodynamics is the branch of physics that studies how
+            air
+            moves around objects like planes, helicopters, birds and even cars. These are some examples of how the air
+            around us can
+            affect certain objects:
+        </p>
+        <p>
+            The air around a plane defines the plane's speed making it fast or slow. This same principle is applied to
+            cars and boats too. The air around a bird or a paraglider can make them fly higher or lower. The air around
+            a helicopter
+            can cause turbluence which means the helicopter will shake and move around and it will be hard too control
+            it.
+        </p>
+    </div>
+    <div class="box" id="aerod-principles">
+        <h2 class="montserrat-title">How Aerodynamics work</h2>
+        <p>
+            Aerodynamics is applied to many things in our daily lives. The way cars and planes are shaped and why
+            helicopters have two
+            rotar blades is all because of Aerodynamics. It basically applies to anything that moves through air. The
+            shape, size and
+            surface of an object determine how air flows around it. For example, a sports car can go faster than a bus
+            because of
+            their shape and size. A bus has a flat surface on its front which makes it hard for air to flow around it
+            but a sports car
+            has a smooth shape which makes it easy for air to flow around it.
+        </p>
+        <p>
+            When an objects surface makes it hard for air to flow aroud it, it is called drag. Drag is the force that
+            slows down an
+            object. Drag can be reduced by making the object's surface smooth and round. When a object is causing less
+            drag, it is
+            called streamlined. Streamlined objects can move faster than non-streamlined objects because they reduce
+            drag by allowing
+            air to flow more smoothly around it. The diagram below shows how air flows smoothly around an aeroplane wing
+            and a birds
+            wing. This also shows an example of how streamlined objects look like and how is allows them to move faster.
+        </p>
+        <img src="Images/aerod-principles.jpg">
+    </div>
+
+    <div class="box" id="aerod-math">
+        <h2 class="montserrat-title">The Math used in Aerodynamics</h2>
+        <p>
+            As Aerodynamics is a branch of physics, it uses math to calculate many properties of the object. These are
+            Calculus,
+            differential equations and linear algebra. Calculus is used to calculate the rates of change in the airflow
+            like velocity
+            and pressure. Differential equations are required to solve the fluid flow and are used to model airflow
+            around objects.
+            And finally, linear algebra is used to repersent forces, velocities and other aerodynamic properties. They
+            are also used in
+            solving systems of equations related to airflow and structural analysis.
+        </p>
+        <p>
+            There is also Trigonometry which is used to calculate the angles of attack and altitude of a plane. This is
+            a advanced
+            level of math and is used to design and build planes as the amount of drag can increase or decrease
+            depending on the
+            altitude and the angle of attack. The diagram below shows how trigonometry is used in aerodynamics and how
+            everything
+            changes depending on the angle of attack.
+        </p>
+        <img src="Images/aerod-math-NASA.gif">
+    </div>
+    <div class="box" id="aerod-forces">
+        <h2 class="montserrat-title">The Forces of Aerodynamics</h2>
+        <p>
+            In Aerodynamics, there are 4 forces that act upon any object that move through the air and the diagram below
+            shows their
+            actions:
+        </p>
+        <img src="Images/aerod-laws.jpg">
+        <table>
+            <tr>
+                <th>Lift</th>
+                <th>Gravity</th>
+                <th>Thrust</th>
+                <th>Drag</th>
+            </tr>
+            <tr>
+                <td>
+                    Lift is the force that makes an object go up and counteracts gravity. Lift is caused by the wind
+                    interacting with
+                    an object which creates pressure underneath the object which causes it to. Birds are natures example
+                    of
+                    Aerodynamics as they entirely rely on lift to fly. Aeroplanes also use lift to fly as fly they have
+                    flaps on their
+                    wings which directs the wind downwards and creates lift. Same thing with landing as the flaps are
+                    used to direct
+                    wind upwards which pushes the plane down.
+                </td>
+                <td>
+                    Another way that planes land is using gravity. Gravity is the force that pulls everything down back
+                    to the surface
+                    of the earth. Gravity is caused by the Earth's mass and energy pulling everything towards it. That
+                    is one of the
+                    reasons why the moon orbits the earth. This also why birds and aeroplanes are designed to create a
+                    lot of lift to
+                    counteract gravity. But gravity also helps planes and birds land as gravity is pulling them back to
+                    the ground.
+                </td>
+                <td>
+                    Thrust is the force that propels a object forward. Thrust is generated by acellerating a mass of
+                    fluid. This
+                    acelleration is achieved by the engines of a plane which causes pressure to build up behind the
+                    plane and pushes
+                    it forward. On the other hand, birds cause thrust by flapping their wings which also builds up
+                    pressure making
+                    themselves move forward.
+                </td>
+                <td>
+                    Drag is the force that counteracts thrust. Drag is caused by the wind interacting with an object
+                    which effectively
+                    slows it down. This is one of the reasons why the front of a plane (the nose) is streamlined so the
+                    air can flow
+                    smoothly to reduce drag. This is also one of the reasons why cheetahs are the fastest animal on land
+                    as they have
+                    a streamlined body unlike humans who have a flat chest which causes a lot of drag. This is why we
+                    have to bend
+                    down at the start of the race because it reduces drag at the start and propels us forward.
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="box" id="hydro">
+        <h2 class="montserrat-title">Hydrodynamics</h2>
+        <p>
+            Hydrodynamics is the same as Aerodynamics but it is applied to a object moving around liquids. The only
+            difference between
+            their properties is that liquids are much denser than air. This means that the forces of hydrodynamics are
+            much stronger
+            than the forces of aerodynamics. This is why most boats are much bigger than planes but the most important
+            difference is
+            the reason why boats (especially Submarines) do not have wings.
+
+            Aeroplanes have wings because they need to create lift to counteract gravity but in the case of boats
+            (specifically Submarines) the pressure is that causes lift is coming from below it. This is why boats do not
+            have wings as
+            it just increases drag and weight. Instead of needing wings to prevent a boat from sinking, a boat has a
+            U-shaped hull
+            which lowers the center of buoyancy below the ship and creates another force that is pushing the ship up,
+            the force of
+            buoyancy.
+        </p>
+        <img src="Images/hydro.webp">
+    </div>
+    <div class="box" id="aerod-help">
+        <h2 class="montserrat-title">Professional Help</h2>
+        <p>
+            If you need help with Aerodynamics or Hydrodynamics, watch this interactive video which is 1:20 minutes
+            long and
+            explains everything about Aerodynamics and Hydrodynamics in simple words:
+        </p>
+        <a
+            href="https://www.canva.com/design/DAGvyK2yNnE/p-FH4T8b5o3gUM1IZ7CRQQ/edit?utm_content=DAGvyK2yNnE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img
+                src="Images/CanvaThumbnail.png"></a>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-2">
+                    <img src="Images/Screenshot_2025-08-08_215654-removebg-preview (1).png">
+                    <p>Our Purpose is to help people learn about Aerodynamics and Hydrodynamics while making it easy and
+                        interactive.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li>NASA</li>
+                        <li>Virginia Tech</li>
+                        <li>Britanica</li>
+                        <li>MIT OpenCourseWare</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2025 - &#169;Aerod</p>
+    </div>
+</body>
+
+</html>
